@@ -26,7 +26,6 @@ query ExampleQuery {
 }
 `;
 
-
 const Tracks = () => {
   const { loading, error, data } = useQuery(TRACKS);
 
